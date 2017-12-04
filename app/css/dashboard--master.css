@@ -20,6 +20,9 @@ header,
 .react-resizable-handle {
   display: none;
 }
+.markup .chart-header {
+  display: none;
+}
 body {
   background-color: #fff;
   font-family: "Montserrat, Helvetica, Arial, sans-serif";
@@ -60,10 +63,10 @@ p {
   color: #535353;
   width: 75%;
 }
-#slice_130 {
-  display: none;
+.slice-cell-highlight {
+  box-shadow: none;
 }
-.markup .chart-header {
+#slice_130 {
   display: none;
 }
 div.widget .chart-header {
