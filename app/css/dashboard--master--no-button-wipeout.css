@@ -39,10 +39,10 @@ p {
   color: #535353;
   width: 75%;
 }
-#slice_130 {
-  display: none;
+.slice-cell-highlight {
+  box-shadow: none;
 }
-.markup .chart-header {
+#slice_130 {
   display: none;
 }
 div.widget .chart-header {
