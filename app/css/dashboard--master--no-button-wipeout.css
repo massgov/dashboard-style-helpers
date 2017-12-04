@@ -12,6 +12,33 @@ h6,
 p {
   font-family: "Montserrat, Helvetica, Arial, sans-serif";
 }
+.title h1 {
+  display: none;
+}
+.slice-html {
+  height: 100%;
+  overflow-y: hidden;
+}
+.slice-html--title {
+  font-size: 60px;
+  padding: 0;
+  margin-bottom: 35px;
+  color: #141414;
+}
+.slice-html--headline {
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #141414;
+  color: #fff;
+  padding: 21px 20px;
+  margin-bottom: 22px;
+}
+.slice-html--paragraph {
+  font-size: 22px;
+  line-height: 33px;
+  color: #535353;
+  width: 75%;
+}
 #slice_130 {
   display: none;
 }
