@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+body {
+  background-color: #fff;
+  font-family: "Montserrat, Helvetica, Arial, sans-serif";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Montserrat, Helvetica, Arial, sans-serif";
+}
+#slice_130 {
+  display: none;
+}
+.markup .chart-header {
+  display: none;
+}
+div.widget .chart-header {
+  padding: 11px 0;
+  margin: 11px 0;
+}
+.chart-header span {
+  font-weight: 500;
+  color: #141414;
+  font-size: 22px;
+}
+.slice_description {
+  display: none;
+}
+.slice_container.table {
+  background-color: #fff;
+}
+.widget.table tr>td {
+  padding: 10px !important;
+}
+div.dataTables_paginate ul.pagination {
+  margin: 22px 0px;
+}
