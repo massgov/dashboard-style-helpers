@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
 h1 {
-  color: #fff;
-  font-weight: bold;
-  background-color: #14558f;
-  padding: 20px;
+  color: #141414;
+  font-weight: 600;
   margin-bottom: 36px;
 }
 h2 {
-  font-weight: bold;
-  padding-bottom: 15px;
+  font-weight: 600;
+  background-color: #14558f;
+  color: #fff;
+  padding: 20px;
   border-bottom: 1px solid #dcdcdc;
   margin-bottom: 30px;
 }
@@ -20,6 +20,10 @@ p {
   line-height: 27px;
   margin-bottom: 18px;
 }
+b {
+  font-weight: 600;
+}
 .text-wrapper {
   max-width: 820px;
+  padding-left: 20px;
 }

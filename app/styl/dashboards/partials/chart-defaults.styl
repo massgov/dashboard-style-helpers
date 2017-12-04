@@ -3,9 +3,13 @@
 body 
     background-color #fff
     font-family $monsterrat
+    color $body-text-color 
 
 h1, h2, h3, h4, h5, h6, p 
     font-family $monsterrat
+    
+h1, h2, h3, h4, h5, h6
+    color $heading-text-color 
 
 .title h1 
     display none
@@ -42,12 +46,18 @@ h1, h2, h3, h4, h5, h6, p
 #slice_130 
     display none
 
+/** hide titles on markup slices **/
+.markup .editable-title 
+    display none
 
 /* charts */
 
 div.widget .chart-header 
     padding 11px 0
     margin 11px 0
+
+div.widget.markup .chart-header  
+    border-bottom 0
 
 .chart-header span 
     font-weight 500
