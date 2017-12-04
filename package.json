@@ -1,0 +1,24 @@
+{
+  "name": "dashboard-style-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massgov/dashboard-style-helpers.git"
+  },
+  "author": "Christine Bath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massgov/dashboard-style-helpers/issues"
+  },
+  "homepage": "https://github.com/massgov/dashboard-style-helpers#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0",
+    "run-sequence": "^2.2.0"
+  }
+}

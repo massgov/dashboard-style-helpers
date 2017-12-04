@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+h1 {
+  color: #fff;
+  font-weight: bold;
+  background-color: #14558f;
+  padding: 20px;
+  margin-bottom: 36px;
+}
+h2 {
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 30px;
+}
+h3 {
+  font-weight: 600;
+}
+p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 18px;
+}
+/* text wrapping */
+.text-wrapper {
+  max-width: 820px;
+}
