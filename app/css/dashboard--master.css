@@ -75,11 +75,15 @@ h6 {
 .slice-cell-highlight {
   box-shadow: none;
 }
-#slice_130 {
+#slice_130,
+#slice_354 {
   display: none;
 }
 .markup .editable-title {
   display: none;
+}
+.markup.slice-container {
+  margin: 0;
 }
 div.widget .chart-header {
   padding: 11px 0;
@@ -88,8 +92,8 @@ div.widget .chart-header {
 div.widget.markup .chart-header {
   border-bottom: 0;
 }
-.chart-header span {
-  font-weight: 500;
+.slice-cell .editable-title input[type="button"] {
+  font-weight: 600;
   color: #141414;
   font-size: 22px;
 }
@@ -99,7 +103,8 @@ div.widget.markup .chart-header {
 .slice_container.table {
   background-color: #fff;
 }
-.widget.table tr>td {
+.widget.table tr>td,
+.widget.table tr>th {
   padding: 10px !important;
 }
 div.dataTables_paginate ul.pagination {

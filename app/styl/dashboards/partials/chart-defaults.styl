@@ -43,12 +43,16 @@ h1, h2, h3, h4, h5, h6
     box-shadow none
 
 /** hide  node_id filter slice **/
-#slice_130 
+#slice_130,
+#slice_354 
     display none
 
 /** hide titles on markup slices **/
 .markup .editable-title 
     display none
+    
+.markup.slice-container
+    margin 0
 
 /* charts */
 
@@ -59,8 +63,8 @@ div.widget .chart-header
 div.widget.markup .chart-header  
     border-bottom 0
 
-.chart-header span 
-    font-weight 500
+.slice-cell .editable-title input[type="button"]
+    font-weight 600
     color $heading-text-color
     font-size 22px
 
@@ -72,7 +76,8 @@ div.widget.markup .chart-header
 .slice_container.table 
     background-color #ffffff
 
-.widget.table tr>td 
+.widget.table tr>td,
+.widget.table tr>th
     padding 10px !important
 
 /* pagination */
