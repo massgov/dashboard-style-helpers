@@ -88,6 +88,10 @@ h6 {
 div.widget .chart-header {
   padding: 11px 0;
   margin: 11px 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+div.widget.markup {
+  overflow-y: none;
 }
 div.widget.markup .chart-header {
   border-bottom: 0;
