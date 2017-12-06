@@ -28,3 +28,7 @@ b {
 .text-wrapper {
   max-width: 820px;
 }
+.note {
+  font-weight: 600;
+  font-color: #43956f;
+}
