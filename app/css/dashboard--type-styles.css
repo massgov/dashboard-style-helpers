@@ -2,6 +2,7 @@
 h1 {
   color: #141414;
   font-weight: 600;
+  font-size: 42px;
   margin-bottom: 36px;
 }
 h2 {
@@ -15,7 +16,8 @@ h2 {
 h3 {
   font-weight: 600;
 }
-p {
+p,
+li {
   font-size: 18px;
   line-height: 27px;
   margin-bottom: 18px;
