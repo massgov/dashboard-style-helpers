@@ -13,6 +13,7 @@ div.widget .chart-controls {
   opacity: 1;
 }
 header,
+#dashboard-header,
 .favstar,
 .btn-group {
   display: none;
