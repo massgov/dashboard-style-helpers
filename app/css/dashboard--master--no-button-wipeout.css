@@ -55,11 +55,16 @@ h6 {
 #slice_354 {
   display: none;
 }
-.markup .editable-title {
+.markup .editable-title,
+.big_number_total .editable-title {
   display: none;
 }
 .markup.slice-container {
   margin: 0;
+}
+.big_number_total #bigNumber {
+  font-size: 100px !important;
+  font-weight: 700 !important;
 }
 div.widget .chart-header {
   padding: 11px 0;
@@ -69,7 +74,8 @@ div.widget .chart-header {
 div.widget.markup {
   overflow-y: none;
 }
-div.widget.markup .chart-header {
+div.widget.markup .chart-header,
+div.widget.big_number_total .chart-header {
   border-bottom: 0;
 }
 .slice-cell .editable-title input[type="button"] {

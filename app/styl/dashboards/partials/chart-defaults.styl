@@ -48,11 +48,19 @@ h1, h2, h3, h4, h5, h6
     display none
 
 /** hide titles on markup slices **/
-.markup .editable-title 
+.markup .editable-title,
+.big_number_total .editable-title
     display none
     
 .markup.slice-container
     margin 0
+    
+/* big number */
+
+.big_number_total #bigNumber {
+    font-size 100px !important
+    font-weight 700 !important
+}
 
 /* charts */
 
@@ -64,7 +72,8 @@ div.widget .chart-header
 div.widget.markup
     overflow-y none
 
-div.widget.markup .chart-header  
+div.widget.markup .chart-header,
+div.widget.big_number_total .chart-header
     border-bottom 0
 
 .slice-cell .editable-title input[type="button"]

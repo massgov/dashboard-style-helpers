@@ -18,4 +18,4 @@ To set up the repo:
 * `npm i`
 * `gulp` - this will listen for changes to your `.styl` files and compile changes. 
 
-In `app/styl` you will find the stylus files where you can edit and compile.
+In `app/styl` you will find the stylus files where you can make edits. They will automatically be compiled into CSS via Gulp.
