@@ -3,6 +3,7 @@ body {
   background-color: #fff;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   color: #535353;
+  -webkit-font-smoothing: antialiased;
 }
 h1,
 h2,

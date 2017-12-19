@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+body {
+  background-color: #fff;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  color: #535353;
+  -webkit-font-smoothing: antialiased;
+}
 h1 {
   color: #141414;
   font-weight: 600;
@@ -30,6 +36,9 @@ b {
 }
 .text-wrapper {
   max-width: 820px;
+}
+.text-wrapper--demo {
+  border: 1px dotted #dcdcdc;
 }
 .note {
   font-weight: 600;
