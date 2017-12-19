@@ -20,6 +20,18 @@ To set up the repo:
 
 In `app/styl` you will find the stylus files where you can make edits. They will automatically be compiled into CSS via Gulp.
 
+## How do I use this to style dashboards?
+There are 2 templates that have been created for styling Superset dashboards in this repo:
+
+* For editing, all styles but show chart controls: This provides all the dashboard styling while retaining the chart controls so you can continue editings. 
+
+  * *In Superset,* this can be activated by picking the `Authoring Dashboard CSS - no button wipeout` option
+  * *In this repo*, you can adjust this template by editing `dashboard--master--no-button-wipeout.styl`
+
+* For production, all styles and hide chart controls: This provides all the dashboard styling and also hides the chart controls and superset header.
+  * *In Superset,* this can be activated by picking the `Authoring Dashboard CSS - with button wipeout` option
+  * *In this repo*, you can adjust this template by editing `dashboard--master.styl` and its associated files
+
 ## How do I use this to add text to dashboards?
 
 Here is how you create a text slice within Superset.
