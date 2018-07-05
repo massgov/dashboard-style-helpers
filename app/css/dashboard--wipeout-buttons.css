@@ -1,0 +1,25 @@
+div.widget .chart-controls {
+  display: block !important;
+  opacity: 1 !important;
+}
+.chart-controls a,
+.markup .chart-controls a.exportCSV {
+  pointer-events: none;
+  opacity: 0;
+}
+.chart-controls a.exportCSV {
+  pointer-events: auto;
+  opacity: 1;
+}
+header,
+#dashboard-header,
+.favstar,
+.btn-group {
+  display: none;
+}
+.react-resizable-handle {
+  display: none;
+}
+.markup .chart-header {
+  display: none;
+}
