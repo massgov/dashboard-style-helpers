@@ -34,6 +34,7 @@ There are 2 templates that have been created for styling Superset dashboards in 
 
 ## I just need the button/header wipeout - what do I do?
 You can add the button wipeout by calling this css in superset:
+
 `@import url('https://massgov.github.io/dashboard-style-helpers/app/css/dashboard--wipeout-buttons.css')`
 
 ## How do I use this to add text to dashboards?
